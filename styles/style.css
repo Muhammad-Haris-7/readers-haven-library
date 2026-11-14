@@ -1,0 +1,107 @@
+/* ==========================================================
+   READERS' HAVEN LIBRARY - SHARED STYLESHEET
+   Rule: edit ONLY your own section. Do not change the shared base.
+   ========================================================== */
+
+/* ---------- SHARED BASE (do not edit) ---------- */
+:root {
+  --color-primary: #1f3a5f;
+  --color-accent: #c8963e;
+  --color-bg: #f7f5f0;
+  --color-text: #222222;
+  --color-white: #ffffff;
+  --max-width: 1100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: var(--color-primary);
+}
+
+.site-header {
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: 16px 0;
+}
+
+.site-nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.site-nav a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  color: var(--color-accent);
+}
+
+.site-footer {
+  background: var(--color-primary);
+  color: var(--color-white);
+  text-align: center;
+  padding: 16px 0;
+  margin-top: 32px;
+}
+
+/* ==========================================================
+   SECTION 1: HOME PAGE (index.html) - Team Lead
+   ========================================================== */
+
+
+
+/* ==========================================================
+   SECTION 2: COLLECTIONS PAGE (collections.html) - Mahir
+   ========================================================== */
+
+
+
+/* ==========================================================
+   SECTION 3: MEMBERSHIP PAGE (membership.html) - Fizza
+   ========================================================== */
+
+
+
+/* ==========================================================
+   SECTION 4: SERVICES PAGE (services.html) - Fatima
+   ========================================================== */
+
+
+
+/* ==========================================================
+   SECTION 5: CONTACT PAGE (contact.html) - Haroon
+   ========================================================== */
+
+
+
+/* ==========================================================
+   RESPONSIVE (each member adds at least ONE @media query,
+   placed inside their own section above)
+   ========================================================== */
