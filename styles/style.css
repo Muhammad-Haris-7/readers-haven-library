@@ -87,7 +87,43 @@ a {
    SECTION 3: MEMBERSHIP PAGE (membership.html) - Fizza
    ========================================================== */
 
+.mem-intro {
+  padding: 40px 0 16px;
+  text-align: center;
+}
+.mem-intro h2 { color: var(--color-primary); }
+.mem-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.mem-card {
+  background: var(--color-white);
+  padding: 24px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+.mem-card h3 { color: var(--color-primary); }
+.mem-featured { border: 2px solid var(--color-accent); }
+.mem-price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--color-accent);
+  margin: 8px 0 12px;
+}
+.mem-card ul {
+  list-style: none;
+  text-align: left;
+}
+.mem-card li {
+  padding: 6px 0;
+  border-top: 1px solid #eeeeee;
+}
 
+@media (max-width: 800px) {
+  .mem-grid { grid-template-columns: 1fr; }
+}
 
 /* ==========================================================
    SECTION 4: SERVICES PAGE (services.html) - Fatima
