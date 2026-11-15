@@ -94,6 +94,45 @@ a {
    ========================================================== */
 
 
+.svc-intro {
+  padding: 40px 0 16px;
+  text-align: center;
+}
+
+.svc-intro h2 {
+  color: var(--color-primary);
+}
+
+.svc-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.svc-item {
+  background: var(--color-white);
+  padding: 20px;
+  border-radius: 8px;
+  border-top: 4px solid var(--color-primary);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.svc-item h3 {
+  color: var(--color-primary);
+  margin-bottom: 4px;
+}
+
+.svc-item ol {
+  padding-left: 20px;
+  margin-top: 6px;
+}
+
+@media (max-width: 700px) {
+  .svc-list {
+    grid-template-columns: 1fr;
+  }
+}
+
 
 /* ==========================================================
    SECTION 5: CONTACT PAGE (contact.html) - Haroon
