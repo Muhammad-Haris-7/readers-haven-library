@@ -99,7 +99,53 @@ a {
    SECTION 5: CONTACT PAGE (contact.html) - Haroon
    ========================================================== */
 
+.con-intro {
+  padding: 40px 0 16px;
+  text-align: center;
+}
+.con-intro h2 { color: var(--color-primary); }
+.con-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 20px;
+}
+.con-info,
+.con-form {
+  background: var(--color-white);
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+.con-info h3,
+.con-form h3 { color: var(--color-primary); margin-bottom: 12px; }
+.con-info p { margin-bottom: 8px; }
+.con-form label {
+  display: block;
+  margin: 10px 0 4px;
+  font-weight: bold;
+}
+.con-form input,
+.con-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-family: inherit;
+}
+.con-form button {
+  margin-top: 14px;
+  padding: 10px 24px;
+  background: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.con-form button:hover { background: var(--color-accent); }
 
+@media (max-width: 700px) {
+  .con-layout { grid-template-columns: 1fr; }
+}
 
 /* ==========================================================
    RESPONSIVE (each member adds at least ONE @media query,
